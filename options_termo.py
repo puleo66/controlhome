@@ -225,6 +225,7 @@ class Termo(wx.Panel):
         self.setupTermGrid()
         self.TermoEnable = True
 
+        self.loadButton.Disable()
         event.Skip()
 
     def OnTermoGridCellChange(self, event):

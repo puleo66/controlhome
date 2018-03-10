@@ -293,9 +293,9 @@ class HeaterPaint(wx.Window):
                 if valTemp[row] == "Flow Hot Water":
                     self.heater.Flow_Hot_Water = str(data[0])[:4]
                 if valTemp[row] == "Return Cold Water":
-                    self.heater.Return_Cold_Water = str(data[1])[:4]
+                    self.heater.Return_Cold_Water = str(data[2])[:4]
                 if valTemp[row] == "Hot Water Top":
-                    self.tank.Hot_Water_Top = str(data[2])[:4]
+                    self.tank.Hot_Water_Top = str(data[1])[:4]
                 if valTemp[row] == "Hot Water Bottom":
                     self.tank.Hot_Water_Bottom = str(data[3])[:4]
 
